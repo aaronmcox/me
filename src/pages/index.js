@@ -6,11 +6,6 @@ import { Showcase } from "../components/showcase"
 
 const IndexPage = () => (
   <Layout>
-    <div className="hero bg-primary">
-      <div className="hero-body">
-      </div>
-    </div>
-
     <Showcase/>
   </Layout>
 )

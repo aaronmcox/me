@@ -1,24 +1,33 @@
 
 $primary-color: #14213D;
-$secondary-color: #FCA311;
+$secondary-color: #fca311;
+$highlight-color: #008a62;
+$light-color: #e5e5e5;
+
+$border-radius: 5px;
 
 @import "node_modules/spectre.css/src/spectre";
 @import "node_modules/spectre.css/src/spectre-exp";
 
-$bold: #FCA311;
-$accent: #008a62;
-$light: #E5E5E5;
-
 body {
-  background: white;
+  background: $light-color;
   color: $primary-color;
 }
 
 header {
   padding: 10px;
-  border-bottom: 1px solid $light;
 }
 
 main {}
 
-footer {}
+footer {
+}
+
+.showcase {
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+}
+
+.svg-inline--fa {
+  color: $primary-color;
+}
