@@ -15,14 +15,12 @@ export function Showcase() {
         </figure>
       </div>
       <div className="column">
-          <article className="message is-info">
-            <div className="message-header">
-              <h2 className="subtitle is-4 has-text-white">I'm Aaron Cox and I develop software.</h2>
-            </div>
-            <div className="message-body">
-              Curabitur pellentesque, enim at placerat ullamcorper, sem felis molestie purus, nec lobortis orci nisl nec orci. Vestibulum tempus leo nisi, quis cursus diam rhoncus vitae. Curabitur molestie tristique nulla ut egestas. Aenean eu condimentum tortor. Maecenas gravida nec velit quis eleifend. Donec dignissim pharetra velit eget convallis. Sed gravida, ante at tempus tincidunt, felis magna accumsan nisi, a porttitor mi quam ut nisl. Integer ac metus pulvinar, imperdiet dolor et, placerat nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam blandit odio in ex porta rutrum. Aliquam ac fermentum lorem. Fusce bibendum posuere urna vitae vestibulum.
-            </div>
-          </article>
+        <div className="box">
+          <h1 className="title is-1">Hello!</h1>
+          <h3 className="subtitle is-3">I'm Aaron Cox and I develop software.</h3>
+          <p className="block">Curabitur pellentesque, enim at placerat ullamcorper, sem felis molestie purus, nec lobortis orci nisl nec orci. Vestibulum tempus leo nisi, quis cursus diam rhoncus vitae. Curabitur molestie tristique nulla ut egestas. Aenean eu condimentum tortor. Maecenas gravida nec velit quis eleifend. Donec dignissim pharetra velit eget convallis. Sed gravida, ante at tempus tincidunt, felis magna accumsan nisi, a porttitor mi quam ut nisl. Integer ac metus pulvinar, imperdiet dolor et, placerat nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam blandit odio in ex porta rutrum. Aliquam ac fermentum lorem. Fusce bibendum posuere urna vitae vestibulum.</p>
+          <p className="block">Sed condimentum lectus sit amet tellus ultrices, ut maximus magna tempus. Sed ac molestie nisl. Nulla vulputate, lorem eu volutpat tempor, ante metus aliquet risus, sit amet tincidunt magna lectus tempor lectus. Nam id gravida odio. Donec risus lorem, placerat quis nunc quis, pellentesque imperdiet felis. Morbi rutrum lectus justo, eu porttitor quam suscipit vel. Phasellus a fringilla turpis. Aenean lacinia aliquam lobortis.</p>
+        </div>
       </div>
     </div>
   );
