@@ -1,10 +1,6 @@
 
 import * as React from "react";
 
-const Footer = () => (
-  <footer className="bg-secondary"/>
+export const Footer = () => (
+  <footer className="footer has-background-primary"/>
 )
-
-export {
-  Footer
-};

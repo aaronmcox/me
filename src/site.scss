@@ -1,17 +1,16 @@
 
-$primary-color: #14213D;
-$secondary-color: #fca311;
-$success-color: #008a62;
-$light-color: #e5e5e5;
+// bulma colors
+$dark: #14213D;
+$primary: #fca311;
+$info: #008a62;
+$light: #e5e5e5;
 
-$border-radius: 5px;
-
-@import "node_modules/spectre.css/src/spectre";
-@import "node_modules/spectre.css/src/spectre-exp";
+// TODO: import separately
+@import "node_modules/bulma/bulma";
 
 body {
-  background: $light-color;
-  color: $primary-color;
+  background: $light;
+  color: $dark;
 }
 
 header {
@@ -27,11 +26,8 @@ footer {
 .showcase {
   padding-top: 15vh;
   padding-bottom: 15vh;
-
-  .showcase-center {
-  }
 }
 
 .svg-inline--fa {
-  color: $primary-color;
+  color: $dark;
 }
