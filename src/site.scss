@@ -1,20 +1,25 @@
 
 // bulma colors
-$dark: #14213D;
-$primary: #fca311;
-$info: #008a62;
-$light: #e5e5e5;
+$old-dark: #14213D;
+
+$primary: #a6f0c6;
+$light: #a98b98;
+$info: #4e3d53;
+$dark: #0f1123;
+//$primary: #a6f0c6;
+//$light: #a98b98;
+//$info: #4e3d53;
+//$dark: #0f1123;
 
 // TODO: import separately
 @import "node_modules/bulma/bulma";
 
 body {
-  background: $light;
+  background: $dark;
   color: $dark;
 }
 
 header {
-  padding: 10px;
 }
 
 main {}

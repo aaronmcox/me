@@ -5,8 +5,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import { faChalkboardTeacher, faHome, faTerminal } from "@fortawesome/free-solid-svg-icons"
 
+
 export const Header = () => (
-    <nav className="navbar is-fixed-top-desktop" role="navigation" aria-label="main navigation">
+    <nav className="navbar" role="navigation" aria-label="main navigation">
 
       <div className="navbar-brand">
         <Link className="navbar-item" to="/">

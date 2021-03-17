@@ -31,9 +31,12 @@ export const Layout = ({ children }) => {
         <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css"/>
       </Helmet>
 
+
       <Header/>
 
-      <main>{children}</main>
+      <main>
+        {children}
+      </main>
 
       <Footer />
     </>
