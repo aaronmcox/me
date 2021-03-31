@@ -7,7 +7,7 @@ import { faChalkboardTeacher, faHome, faTerminal } from "@fortawesome/free-solid
 
 
 export const Header = () => (
-    <nav className="navbar" role="navigation" aria-label="main navigation">
+    <nav className="navbar has-background-light" role="navigation" aria-label="main navigation">
 
       <div className="navbar-brand">
         <Link className="navbar-item" to="/">

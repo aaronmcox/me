@@ -4,7 +4,7 @@ import { StaticImage} from "gatsby-plugin-image";
 export function Showcase() {
   return (
     <div className="has-background-dark">
-      <div className="container has-background-primary">
+      <div className="container has-background-light">
         <div className="columns is-vcentered p-6 mt-6 is-desktop">
           <div className="column">
             <figure className="image">
@@ -18,10 +18,10 @@ export function Showcase() {
           </div>
           <div className="column">
             <div className="box has-background-dark">
-              <h1 className="title is-1 has-text-primary">Hello!</h1>
-              <h3 className="subtitle is-3 has-text-primary">I'm Aaron Cox and I develop software.</h3>
-              <p className="block has-text-primary">Curabitur pellentesque, enim at placerat ullamcorper, sem felis molestie purus, nec lobortis orci nisl nec orci. Vestibulum tempus leo nisi, quis cursus diam rhoncus vitae. Curabitur molestie tristique nulla ut egestas. Aenean eu condimentum tortor. Maecenas gravida nec velit quis eleifend. Donec dignissim pharetra velit eget convallis. Sed gravida, ante at tempus tincidunt, felis magna accumsan nisi, a porttitor mi quam ut nisl. Integer ac metus pulvinar, imperdiet dolor et, placerat nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam blandit odio in ex porta rutrum. Aliquam ac fermentum lorem. Fusce bibendum posuere urna vitae vestibulum.</p>
-              <p className="block has-text-primary">Sed condimentum lectus sit amet tellus ultrices, ut maximus magna tempus. Sed ac molestie nisl. Nulla vulputate, lorem eu volutpat tempor, ante metus aliquet risus, sit amet tincidunt magna lectus tempor lectus. Nam id gravida odio. Donec risus lorem, placerat quis nunc quis, pellentesque imperdiet felis. Morbi rutrum lectus justo, eu porttitor quam suscipit vel. Phasellus a fringilla turpis. Aenean lacinia aliquam lobortis.</p>
+              <h1 className="title is-1 has-text-light">Hello!</h1>
+              <h3 className="subtitle is-3 has-text-info">I'm Aaron and I develop software.</h3>
+              <p className="block has-text-light">Curabitur pellentesque, enim at placerat ullamcorper, sem felis molestie purus, nec lobortis orci nisl nec orci. Vestibulum tempus leo nisi, quis cursus diam rhoncus vitae. Curabitur molestie tristique nulla ut egestas. Aenean eu condimentum tortor. Maecenas gravida nec velit quis eleifend. Donec dignissim pharetra velit eget convallis. Sed gravida, ante at tempus tincidunt, felis magna accumsan nisi, a porttitor mi quam ut nisl. Integer ac metus pulvinar, imperdiet dolor et, placerat nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam blandit odio in ex porta rutrum. Aliquam ac fermentum lorem. Fusce bibendum posuere urna vitae vestibulum.</p>
+              <p className="block has-text-light">Sed condimentum lectus sit amet tellus ultrices, ut maximus magna tempus. Sed ac molestie nisl. Nulla vulputate, lorem eu volutpat tempor, ante metus aliquet risus, sit amet tincidunt magna lectus tempor lectus. Nam id gravida odio. Donec risus lorem, placerat quis nunc quis, pellentesque imperdiet felis. Morbi rutrum lectus justo, eu porttitor quam suscipit vel. Phasellus a fringilla turpis. Aenean lacinia aliquam lobortis.</p>
             </div>
           </div>
         </div>
