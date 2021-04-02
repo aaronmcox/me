@@ -17,9 +17,15 @@ $light: #f3e8e0;
 body {
   background: $dark;
   color: $light;
+  font-family: 'Poppins', sans-serif;
 }
 
-header {
+.is-header-element {
+  font-size: 1.4rem;
+
+  &.is-header-brand {
+    font-size: 3rem;
+  }
 }
 
 main {}
@@ -34,5 +40,9 @@ footer {
 }
 
 .svg-inline--fa {
-  color: $dark;
+  //color: $dark;
+}
+
+.has-permanent-marker-font {
+  font-family: 'Permanent Marker', cursive;
 }

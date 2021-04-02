@@ -7,29 +7,32 @@ import { faChalkboardTeacher, faHome, faTerminal } from "@fortawesome/free-solid
 
 
 export const Header = () => (
-    <nav className="navbar has-background-light" role="navigation" aria-label="main navigation">
-
-      <div className="navbar-brand">
-        <Link className="navbar-item" to="/">
-          <span className="text-large"><FontAwesomeIcon icon={faChalkboardTeacher} />&nbsp;Aaron Cox</span>
-        </Link>
-        <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false">
-          <span aria-hidden="true"/>
-          <span aria-hidden="true"/>
-          <span aria-hidden="true"/>
-        </a>
-      </div>
-
-      <div className="navbar-menu">
-        <div className="navbar-end">
-          <a className="navbar-item" href="https://github.com/aaronmcox">
-            <FontAwesomeIcon icon={faGithub} size="2x" className=""/>
-          </a>
-          <a className="navbar-item mr-2" href="https://www.linkedin.com/in/aaroncox-dev/">
-            <FontAwesomeIcon icon={faLinkedin} size="2x" className=""/>
-          </a>
+  <section className="hero is-primary">
+    <div className="hero-body">
+      <nav className="navbar">
+        <div className="container">
+          <div className="navbar-brand">
+            <div className="navbar-item has-permanent-marker-font is-header-element is-header-brand">
+              Aaron Cox
+            </div>
+            <span className="navbar-burger" data-target="navbarMenuHeroA">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+          </div>
+          <div id="navbarMenuHeroA" className="navbar-menu">
+            <div className="navbar-end is-header-element">
+              <a className="navbar-item" href="https://github.com/aaronmcox">
+                <FontAwesomeIcon icon={faGithub} size="2x" className=""/>
+              </a>
+              <a className="navbar-item mr-2" href="https://www.linkedin.com/in/aaroncox-dev/">
+                <FontAwesomeIcon icon={faLinkedin} size="2x" className=""/>
+              </a>
+            </div>
+          </div>
         </div>
-      </div>
-
-    </nav>
+      </nav>
+    </div>
+  </section>
 );
