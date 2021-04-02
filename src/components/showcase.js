@@ -10,7 +10,7 @@ export function Showcase() {
             <figure className="image">
               <StaticImage
                 src="../images/me-jenga-square.jpg"
-                alt="Me, perching against a giant Jenga set"
+                alt="Me, in my backyard, learning on a giant Jenga set, grinning like a fool."
                 className="has-ratio"
                 style={{borderRadius: "1rem"}}
               />
