@@ -15,8 +15,8 @@ $light: #f3e8e0;
 @import "node_modules/bulma/bulma";
 
 body {
-  background: $dark;
-  color: $light;
+  background: $light;
+  color: $dark;
   font-family: 'Poppins', sans-serif;
 }
 

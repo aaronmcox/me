@@ -3,9 +3,9 @@ import { StaticImage} from "gatsby-plugin-image";
 
 export function Showcase() {
   return (
-    <div className="has-background-dark">
+    <div className="has-background-dark p-6">
       <div className="container has-background-light">
-        <div className="columns is-vcentered p-6 mt-6 is-desktop">
+        <div className="columns is-vcentered p-6 mt-6 mb-6 is-desktop">
           <div className="column is-7-desktop is-8-widescreen">
             <figure className="image">
               <StaticImage
@@ -18,25 +18,23 @@ export function Showcase() {
           </div>
           <div className="column">
             <div className="box has-background-dark">
-              <h1 className="title is-1 has-text-info has-permanent-marker-font">Hello!</h1>
-              <h3 className="subtitle is-3 has-text-light has-text-weight-bold">I'm Aaron and I develop software,</h3>
-              <p className="block has-text-light" style={{fontSize: "1.5rem"}}>
-                currently for Beckman Coulter in Indianapolis. The primary imperative writing software integrations
-                for
-                and internal web applications.
+              <h1 className="title is-1 has-text-info has-permanent-marker-font pb-1">Hello!</h1>
+              <h3 className="subtitle is-3 has-text-light has-text-weight-bold pb-3">I'm Aaron and I develop software.</h3>
+              <p className="block has-text-light is-size-5">
+                I currently do it for <span className="has-text-danger">Beckman Coulter</span> in Indianapolis. The mission
+                of the position is to integrate medical research devices with our liquid-handling robotic automation platforms.
+                I also get to spend a significant chunk of my time working with modern web development projects, mostly with modern
+                technologies.
               </p>
-              <p className="block has-text-light">
+              <p className="block has-text-light is-size-5">
+                I attended <span className="has-text-primary">Indiana State University</span>, studied computer science, and received
+                M.S. and B.S. degrees for my efforts. I gravitated to multidisciplinary work, participating in bioinformatics
+                and physics projects.
               </p>
-              <p className="block has-text-light">Curabitur pellentesque, enim at placerat ullamcorper, sem felis molestie purus, nec lobortis orci nisl nec orci. Vestibulum tempus leo nisi, quis cursus diam rhoncus vitae. Curabitur molestie tristique nulla ut egestas. Aenean eu condimentum tortor. Maecenas gravida nec velit quis eleifend. Donec dignissim pharetra velit eget convallis. Sed gravida, ante at tempus tincidunt, felis magna accumsan nisi, a porttitor mi quam ut nisl. Integer ac metus pulvinar, imperdiet dolor et, placerat nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam blandit odio in ex porta rutrum. Aliquam ac fermentum lorem. Fusce bibendum posuere urna vitae vestibulum.</p>
-              <p className="block has-text-light">Sed condimentum lectus sit amet tellus ultrices, ut maximus magna tempus. Sed ac molestie nisl. Nulla vulputate, lorem eu volutpat tempor, ante metus aliquet risus, sit amet tincidunt magna lectus tempor lectus. Nam id gravida odio. Donec risus lorem, placerat quis nunc quis, pellentesque imperdiet felis. Morbi rutrum lectus justo, eu porttitor quam suscipit vel. Phasellus a fringilla turpis. Aenean lacinia aliquam lobortis.</p>
             </div>
           </div>
         </div>
       </div>
-
-      <section className="hero">
-        <div className="hero-body"/>
-      </section>
     </div>
   );
 }
