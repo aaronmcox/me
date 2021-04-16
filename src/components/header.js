@@ -12,21 +12,21 @@ export const Header = () => (
       <nav className="navbar">
         <div className="container">
           <div className="navbar-brand">
-            <div className="navbar-item has-permanent-marker-font is-header-element is-header-brand">
+            <div className="navbar-item has-permanent-marker-font is-header-element is-header-brand has-text-light">
               Aaron Cox
             </div>
             <span className="navbar-burger" data-target="navbarMenuHeroA">
-            <span></span>
-            <span></span>
-            <span></span>
-          </span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
           </div>
           <div id="navbarMenuHeroA" className="navbar-menu">
             <div className="navbar-end is-header-element">
-              <a className="navbar-item" href="https://github.com/aaronmcox">
+              <a className="navbar-item has-text-light" href="https://github.com/aaronmcox">
                 <FontAwesomeIcon icon={faGithub} size="2x" className=""/>
               </a>
-              <a className="navbar-item mr-2" href="https://www.linkedin.com/in/aaroncox-dev/">
+              <a className="navbar-item mr-2 has-text-light" href="https://www.linkedin.com/in/aaroncox-dev/">
                 <FontAwesomeIcon icon={faLinkedin} size="2x" className=""/>
               </a>
             </div>

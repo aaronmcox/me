@@ -21,15 +21,15 @@ export function Showcase() {
               <h1 className="title is-1 has-text-info has-permanent-marker-font pb-1">Hello!</h1>
               <h3 className="subtitle is-3 has-text-light has-text-weight-bold pb-3">I'm Aaron and I develop software.</h3>
               <p className="block has-text-light is-size-5">
-                I currently do it for <span className="has-text-danger">Beckman Coulter</span> in Indianapolis. The mission
-                of the position is to integrate medical research devices with our liquid-handling robotic automation platforms.
-                I also get to spend a significant chunk of my time working with modern web development projects, mostly with modern
-                technologies.
+                I currently do it for <a href="https://www.beckman.com" target="_blank" className="has-text-danger">Beckman Coulter</a>
+                in Indianapolis, Indiana. The mission of the position is to integrate medical research devices with our liquid-handling
+                robotic automation platforms. I also get to spend a significant chunk of my time working with modern web development
+                projects, mostly with modern technologies.
               </p>
               <p className="block has-text-light is-size-5">
-                I attended <span className="has-text-primary">Indiana State University</span>, studied computer science, and received
-                M.S. and B.S. degrees for my efforts. I gravitated to multidisciplinary work, participating in bioinformatics
-                and physics projects.
+                I attended <a href="https://www.indstate.edu" target="_blank" className="has-text-primary">Indiana State University</a>
+                in Terre Haute, Indiana. I studied computer science and received M.S. and B.S. degrees for my efforts.
+                I gravitated to multidisciplinary work, participating in bioinformatics and physics projects.
               </p>
             </div>
           </div>
