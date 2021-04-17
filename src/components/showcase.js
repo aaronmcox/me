@@ -3,24 +3,36 @@ import { StaticImage} from "gatsby-plugin-image";
 
 export function Showcase() {
   return (
-    <div className="container bg-primary showcase">
-      <div className="columns">
-        <div className="column col-xs-12 col-mx-auto flex-centered">
-          <img src="https://source.unsplash.com/random/400x600" className="img-responsive s-rounded" />
-        </div>
-        <div className="column col-xs-12 col-mx-auto flex-centered">
-          <StaticImage
-            src="../images/me-jenga.jpg"
-            alt="Me, perching against a giant Jenga set"
-            className="img-responsive s-rounded showcase-center"
-          />
-        </div>
-        <div className="column col-xs-12 col-mx-auto flex-centered">
-          <StaticImage
-            src="../images/me-with-coffee.jpg"
-            alt="Me, holding coffee and grinning"
-            className="img-responsive s-rounded showcase-flank"
-          />
+    <div className="has-background-dark p-6">
+      <div className="container has-background-light">
+        <div className="columns is-vcentered p-6 mt-6 mb-6 is-desktop">
+          <div className="column is-7-desktop is-8-widescreen">
+            <figure className="image">
+              <StaticImage
+                src="../images/me-jenga-square.jpg"
+                alt="Me, in my backyard, learning on a giant Jenga set, grinning like a fool."
+                className="has-ratio"
+                style={{borderRadius: "1rem"}}
+              />
+            </figure>
+          </div>
+          <div className="column">
+            <div className="box has-background-dark">
+              <h1 className="title is-1 has-text-info has-permanent-marker-font pb-1">Hello!</h1>
+              <h3 className="subtitle is-3 has-text-light has-text-weight-bold pb-3">I'm Aaron and I develop software.</h3>
+              <p className="block has-text-light is-size-5">
+                I currently do it for <a href="https://www.beckman.com" target="_blank" className="has-text-danger">Beckman Coulter</a>
+                in Indianapolis, Indiana. The mission of the position is to integrate medical research devices with our liquid-handling
+                robotic automation platforms. I also get to spend a significant chunk of my time working with modern web development
+                projects, mostly with modern technologies.
+              </p>
+              <p className="block has-text-light is-size-5">
+                I attended <a href="https://www.indstate.edu" target="_blank" className="has-text-primary">Indiana State University</a>
+                in Terre Haute, Indiana. I studied computer science and received M.S. and B.S. degrees for my efforts.
+                I gravitated to multidisciplinary work, participating in bioinformatics and physics projects.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

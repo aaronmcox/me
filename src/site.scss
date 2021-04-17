@@ -1,21 +1,31 @@
 
-$primary-color: #14213D;
-$secondary-color: #fca311;
-$success-color: #008a62;
-$light-color: #e5e5e5;
+// bulma colors
+$old-dark: #14213D;
 
-$border-radius: 5px;
+//$primary: #087ca7;
+//$info: #6096ba;
+//$info: #db8d65;
+//$info: #12ba7c;
+$primary: #6096ba;
+$info: #feb548;
+$dark: #433c38;
+$light: #f3e8e0;
 
-@import "node_modules/spectre.css/src/spectre";
-@import "node_modules/spectre.css/src/spectre-exp";
+// TODO: import separately
+@import "node_modules/bulma/bulma";
 
 body {
-  background: $light-color;
-  color: $primary-color;
+  background: $light;
+  color: $dark;
+  font-family: 'Poppins', sans-serif;
 }
 
-header {
-  padding: 10px;
+.is-header-element {
+  font-size: 1.4rem;
+
+  &.is-header-brand {
+    font-size: 3rem;
+  }
 }
 
 main {}
@@ -27,11 +37,12 @@ footer {
 .showcase {
   padding-top: 15vh;
   padding-bottom: 15vh;
-
-  .showcase-center {
-  }
 }
 
 .svg-inline--fa {
-  color: $primary-color;
+  //color: $dark;
+}
+
+.has-permanent-marker-font {
+  font-family: 'Permanent Marker', cursive;
 }
