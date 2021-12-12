@@ -14,40 +14,42 @@ export const Hobbies = () => (
     </div>
 
     <div className="hero-foot">
-      <nav className="level container">
-        <div className="level-item has-text-centered">
-          <div className="box has-background-light p-6">
-            <p className="heading has-text-dark is-size-3">Hiking</p>
-            <p className="title has-text-dark is-size-3">
-              <FontAwesomeIcon icon={faHiking}/>
-            </p>
+      <div className="container">
+        <div className="columns is-desktop">
+          <div className="column has-text-centered">
+            <div className="box has-background-light pt-6 pb-6">
+              <p className="heading has-text-dark is-size-3">Hiking</p>
+              <p className="title has-text-dark is-size-3">
+                <FontAwesomeIcon icon={faHiking}/>
+              </p>
+            </div>
+          </div>
+          <div className="column has-text-centered">
+            <div className="box has-background-dark pt-6 pb-6">
+              <p className="heading has-text-light is-size-3">Smoking</p>
+              <p className="title has-text-light is-size-3">
+                <FontAwesomeIcon icon={faDrumstickBite}/>
+              </p>
+            </div>
+          </div>
+          <div className="column has-text-centered">
+            <div className="box has-background-light pt-6 pb-6">
+              <p className="heading is-size-3">Basketball</p>
+              <p className="title has-text-dark is-size-3">
+                <FontAwesomeIcon icon={faBasketballBall}/>
+              </p>
+            </div>
+          </div>
+          <div className="column has-text-centered">
+            <div className="box has-background-dark pt-6 pb-6">
+              <p className="heading has-text-light is-size-3">Reading</p>
+              <p className="title has-text-light is-size-3">
+                <FontAwesomeIcon icon={faBookReader}/>
+              </p>
+            </div>
           </div>
         </div>
-        <div className="level-item has-text-centered">
-          <div className="box has-background-dark p-6">
-            <p className="heading has-text-light is-size-3">Smoking</p>
-            <p className="title has-text-light is-size-3">
-              <FontAwesomeIcon icon={faDrumstickBite}/>
-            </p>
-          </div>
-        </div>
-        <div className="level-item has-text-centered">
-          <div className="box has-background-light p-6">
-            <p className="heading is-size-3">Basketball</p>
-            <p className="title has-text-dark is-size-3">
-              <FontAwesomeIcon icon={faBasketballBall}/>
-            </p>
-          </div>
-        </div>
-        <div className="level-item has-text-centered">
-          <div className="box has-background-dark p-6">
-            <p className="heading has-text-light is-size-3">Reading</p>
-            <p className="title has-text-light is-size-3">
-              <FontAwesomeIcon icon={faBookReader}/>
-            </p>
-          </div>
-        </div>
-      </nav>
+      </div>
     </div>
   </section>
 );
