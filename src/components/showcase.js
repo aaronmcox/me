@@ -4,20 +4,9 @@ import { StaticImage} from "gatsby-plugin-image";
 export function Showcase() {
   return (
     <div className="has-background-dark p-6">
-      <div className="container has-background-light">
-        <div className="columns is-vcentered p-6 mt-6 mb-6 is-desktop">
-          <div className="column is-7-desktop is-8-widescreen">
-            <figure className="image">
-              <StaticImage
-                src="../images/me-jenga-square.jpg"
-                alt="Me, in my backyard, learning on a giant Jenga set, grinning like a fool."
-                className="has-ratio"
-                style={{borderRadius: "1rem"}}
-              />
-            </figure>
-          </div>
-          <div className="column">
-            <div className="box has-background-dark">
+      <div className="container">
+
+            <div className="has-background-dark">
               <h1 className="title is-1 has-text-info has-permanent-marker-font pb-1">Hello!</h1>
               <h3 className="subtitle is-3 has-text-light has-text-weight-bold pb-3">I'm Aaron and I develop software.</h3>
               <p className="block has-text-light is-size-5">
@@ -32,8 +21,19 @@ export function Showcase() {
                 I gravitated to multidisciplinary work, participating in bioinformatics and physics projects.
               </p>
             </div>
-          </div>
-        </div>
+
+            <div className="mt-6">
+              <figure className="image">
+                <StaticImage
+                  src="../images/me-jenga-square.jpg"
+                  alt="Me, in my backyard, learning on a giant Jenga set, grinning like a fool."
+                  className="has-ratio is-centered"
+                  style={{borderRadius: "1rem"}}
+                />
+              </figure>
+            </div>
+
+
       </div>
     </div>
   );

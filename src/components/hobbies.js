@@ -16,7 +16,7 @@ export const Hobbies = () => (
     <div className="hero-foot">
       <div className="container">
         <div className="columns is-desktop">
-          <div className="column has-text-centered">
+          <div className="column has-text-centered m-1">
             <div className="box has-background-light pt-6 pb-6">
               <p className="heading has-text-dark is-size-3">Hiking</p>
               <p className="title has-text-dark is-size-3">
@@ -24,7 +24,7 @@ export const Hobbies = () => (
               </p>
             </div>
           </div>
-          <div className="column has-text-centered">
+          <div className="column has-text-centered m-1">
             <div className="box has-background-dark pt-6 pb-6">
               <p className="heading has-text-light is-size-3">Smoking</p>
               <p className="title has-text-light is-size-3">
@@ -32,7 +32,7 @@ export const Hobbies = () => (
               </p>
             </div>
           </div>
-          <div className="column has-text-centered">
+          <div className="column has-text-centered m-1">
             <div className="box has-background-light pt-6 pb-6">
               <p className="heading is-size-3">Basketball</p>
               <p className="title has-text-dark is-size-3">
@@ -40,7 +40,7 @@ export const Hobbies = () => (
               </p>
             </div>
           </div>
-          <div className="column has-text-centered">
+          <div className="column has-text-centered m-1">
             <div className="box has-background-dark pt-6 pb-6">
               <p className="heading has-text-light is-size-3">Reading</p>
               <p className="title has-text-light is-size-3">
