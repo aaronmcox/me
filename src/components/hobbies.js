@@ -4,17 +4,17 @@ import { FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import { faBasketballBall, faBookReader, faDrumstickBite, faHiking } from "@fortawesome/free-solid-svg-icons"
 
 export const Hobbies = () => (
-  <section className="hero is-primary pb-6">
-    <div className="hero-body">
-      <div className="container has-text-centered">
+  <section className="hero is-primary p-6">
+    <div className="hero-head">
+      <div className="container has-text-centered p-6">
         <p className="title is-size-1 has-permanent-marker-font has-text-light">
           Some Hobbies
         </p>
       </div>
     </div>
 
-    <div className="hero-foot">
-      <div className="container">
+    <div className="hero-body">
+      <div className="container p-3">
         <div className="columns is-desktop">
           <div className="column has-text-centered m-1">
             <div className="box has-background-light pt-6 pb-6">
