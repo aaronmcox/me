@@ -12,10 +12,10 @@ export const Skills = () => (
     <div className="hero-head">
       <div className="container has-text-centered p-6">
         <p className="title is-size-1 has-permanent-marker-font has-text-light">
-          Skills
+          Skills & Tech
         </p>
         <p className="subtitle is-size-6">
-          (Ratings relative to myself only)
+          (Ratings relative only to myself)
         </p>
       </div>
     </div>
@@ -24,47 +24,53 @@ export const Skills = () => (
       <div className="container">
 
         <div className="columns">
-          <div className="column is-narrow has-permanent-marker-font is-size-3">
+          <div className="column is-3 is-narrow has-permanent-marker-font is-size-3">
             Languages
           </div>
-
           <div className="column">
-            <Skill name="C#" value={10} max={10} />
+            <Skill name="C#" value={9.8} max={10} />
             <Skill name="JavaScript" value={8} max={10} />
             <Skill name="TypeScript" value={7} max={10} />
             <Skill name="Python" value={6} max={10} />
             <Skill name="SQL" value={6} max={10} />
             <Skill name="C" value={5} max={10} />
-            <Skill name="CSS" value={5} max={10} />
+            <Skill name="English" value={4} max={10} />
+            <Skill name="CSS" value={4} max={10} />
             <Skill name="Java" value={3} max={10} />
             <Skill name="C++" value={2} max={10} />
-            <Skill name="Delphi" value={0} max={10} />
-            {/*{props.children}*/}
-            {/*<div className="field is-horizontal">*/}
-            {/*  <div className="field-label">*/}
-            {/*    <label className="has-text-primary-light">C#</label>*/}
-            {/*  </div>*/}
-            {/*  <div className="field-body">*/}
-            {/*    <div className="field">*/}
-            {/*      <progress style={{width: "85%"}} className="progress is-primary is-inline-block" value="8" max="10">70</progress>*/}
-            {/*    </div>*/}
-            {/*  </div>*/}
-            {/*</div>*/}
-            {/*<div className="field is-horizontal">*/}
-            {/*  <div className="field-label">*/}
-            {/*    <label className="has-text-primary-light">JavaScript</label>*/}
-            {/*  </div>*/}
-            {/*  <div className="field-body">*/}
-            {/*    <div className="field">*/}
-            {/*      <progress style={{width: "85%"}} className="progress is-primary is-inline-block" value="8" max="10">70</progress>*/}
-            {/*    </div>*/}
-            {/*  </div>*/}
-            {/*</div>*/}
+            <Skill name="Delphi" value={0.1} max={10} />
           </div>
-
         </div>
 
+        <div className="columns">
+          <div className="column is-3 is-narrow has-permanent-marker-font is-size-3">
+            Databases
+          </div>
 
+          <div className="column">
+            <Skill name="SQL Server" value={7} max={10} color="info" />
+            <Skill name="MySQL / MariaDB" value={5} max={10} color="info" />
+            <Skill name="MongoDB" value={5} max={10} color="info" />
+            <Skill name="SQLite" value={2} max={10} color="info" />
+          </div>
+        </div>
+
+        <div className="columns">
+          <div className="column is-3 has-permanent-marker-font is-size-3">
+            Frameworks
+          </div>
+          <div className="column">
+            <Skill name="ASP.NET" value={9} max={10} />
+            <Skill name="React" value={8} max={10} />
+            <Skill name="WPF" value={8} max={10} />
+            <Skill name="Angular" value={7} max={10} />
+            <Skill name="NUnit" value={6} max={10} />
+            <Skill name="Gatsby" value={6} max={10} />
+            <Skill name="express" value={6} max={10} />
+            <Skill name="Flask" value={3} max={10} />
+            <Skill name="xUnit" value={3} max={10} />
+          </div>
+        </div>
 
       </div>
     </div>
