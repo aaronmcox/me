@@ -28,12 +28,12 @@ export const Skills = () => (
             Languages
           </div>
           <div className="column">
-            <Skill name="C#" value={9.8} max={10} />
+            <Skill name="C#" value={9.5} max={10} />
+            <Skill name="TypeScript" value={8} max={10} />
             <Skill name="JavaScript" value={8} max={10} />
-            <Skill name="TypeScript" value={7} max={10} />
+            <Skill name="C" value={6} max={10} />
             <Skill name="Python" value={6} max={10} />
             <Skill name="SQL" value={6} max={10} />
-            <Skill name="C" value={5} max={10} />
             <Skill name="English" value={4} max={10} />
             <Skill name="CSS" value={4} max={10} />
             <Skill name="Java" value={3} max={10} />
