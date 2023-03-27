@@ -23,9 +23,7 @@ export function Showcase() {
             <h3 className="subtitle is-3 has-text-light has-text-weight-bold pb-3">I'm Aaron and I develop software.</h3>
             <p className="block has-text-light is-size-5">
               I currently do it for&nbsp;<a href="https://www.beckman.com" target="_blank" className="has-text-info">Hinge Health</a>
-              &nbsp;in Indianapolis, Indiana. The mission of the position is to integrate medical research devices with our liquid-handling
-              robotic automation platforms. I also get to spend a significant chunk of my time working with modern web development
-              projects, mostly with modern technologies.
+              &nbsp;in Owensboro, KY.
             </p>
             <p className="block has-text-light is-size-5">
               I attended&nbsp;<a href="https://www.indstate.edu" target="_blank" className="has-text-primary">Indiana State University</a>
